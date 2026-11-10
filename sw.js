@@ -2,10 +2,18 @@ const CACHE_NAME = 'PICF.Boyaca-cache-v1';
 const ASSETS = [
   './',
   './index.html',
-  './APP_PICF_Cuidadores_Prototipo_Clinico.html',
   './manifest.json',
   './icono.png'
-  './Pautas_cuidadores.pdf'
+  './APP_PICF_alcohol.html'
+  './APP_PICF_cuidadores.html',
+  './APP_PICF_riesgo cardio.html',
+  './APP_PICF_RN y posparto.html'
+  './APP_PICF_vejez.html'
+  './Pautas Riesgo Cardio Final(1).pdf'
+  './Pautas_consumo_alcohol_PICF.pdf',
+  './Pautas_Cuidadores_PICF.pdf',
+  './Pautas_Vejez_PICF.pdf'
+  './Pautas RN y posparto Final(1).pdf'
 ];
 
 self.addEventListener('install', (e) => {

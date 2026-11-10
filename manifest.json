@@ -1,15 +1,20 @@
 {
-  "short_name": "PICF.Boyaca",
-  "name": "PICF.Boyaca",
+  "name": "PICF Boyacá",
+  "short_name": "PICF Boyacá",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#054845",
   "icons": [
     {
-      "src": "./icono.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "icono.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icono.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  ],
-  "start_url": "./index.html",
-  "background_color": "#ffffff",
-  "theme_color": "#007bff",
-  "display": "standalone"
+  ]
 }
